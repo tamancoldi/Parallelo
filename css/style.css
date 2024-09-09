@@ -22,28 +22,28 @@ nav #logo{
     margin: 23px;
     float: left;
 }
-    nav #logo img{
-        height: 75px;
-    }
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-    }
-    nav ul li{
-        color: aliceblue;
-        font-size: 16px;
-        font-family: Mostserrat, sans-serif;
-        list-style:none;
-    } 
-    nav ul li a{
-        padding: 55px 20px 55px 0;
-        float: left;
-    }
-    nav#menu_principal{
-        float: right;
-    }
+nav #logo img{
+    height: 75px;
+}
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Mostserrat, sans-serif;
+    list-style:none;
+} 
+nav ul li a{
+    padding: 55px 20px 55px 0;
+    float: left;
+}
+nav#menu_principal{
+    float: right;
+}
 #menu_principal{
     font-family: Montserrat, sans-serif;
     font-size: 11px;
@@ -63,7 +63,7 @@ nav{
     height: 125px;
     margin: 0 auto 0 auto;
 }
-    /*logo_topo classe*/
+/*logo_topo classe*/
 header img {
     height: 100px;
     float: left;
@@ -83,7 +83,7 @@ nav ul li{
     transition: 0.5s;
 }
 nav ul li:hover{
-     background-color: white;
+    background-color: white;
 }
 nav ul li a{
     padding: 25px;
@@ -119,14 +119,12 @@ nav #menu_principal{
     transition: 1s;
     text-decoration: line-through;
 }
-section{
+
+.regua{
     background-image: url(../img/divider-dark.png);
-    width: 100%;
-    height: 500px;
     background-repeat: repeat-x;
     padding-top: 100px;
-}
-    
+}   
 .icons{
     height: 120px;
     width: 345px;
@@ -137,7 +135,6 @@ section{
 .icons .icon img{
     width: 115px;
 }
-
 
 /*sem internet*/
 .txt{
@@ -156,61 +153,65 @@ section{
     margin-left: 95px;
     margin-top: 40px;
 }
-
-.divisoria{
-    background-color: white;
-    height: 100px;
-    width: 100%;
+.trabalhos{
+    margin-top: 110px;
 }
-    
-.projetos{
+.cabecalho{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
 }
-
-.projetos{
-    background-image: url(../img/black-wave.png) no-repeat center 100px;
-    padding: 0 0 18px 0;
-    margin: -14px 0 0 0;
-
+.trabalhos .cabecalho h4 span{
+    color: #e7a920;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
-
-h1{
+.trabalhos .cabecalho h4 b{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-size: 85px;
     text-transform: uppercase;
-    color: black;
-    margin: 0 auto;
-    padding: 0 0 18px 0;
-    margin: -14px 0 0 0;
+    color: #000;
+    font-style: italic;
+    margin: 0;
 }
-
-h4{
-    font-weight: 300;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-}
-.projetos h4{
-    text-transform: uppercase;
-    letter-spacing: 11px;
-    color: orange;
-    
-}
-
-.projetos span{
+.trabalhos .cabecalho p{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 12px 0 0 0;
-    display: inline-block;
+}    
+.trabalhos .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.trabalhos .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/project-1.jpg);
+    background-size: contain;
+    background-position: center;
+  
+}
+.trabalhos .mosaico .item:hover{
+    background-size: 110%;
+    background-position: center;
+
+
+    
+  
 }
     
-
-   
-    /*----------Trabalhos----------*/
-    #Trabalhos header{
-        background-color: blue;
-    }
+/*----------Trabalhos----------*/
+#Trabalhos header{
+    background-color: blue;
+}
 
 
      
